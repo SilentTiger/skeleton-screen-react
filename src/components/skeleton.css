@@ -1,0 +1,63 @@
+.sr-skeleton-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--sr-animation-background);
+}
+
+@keyframes sr-skeleton-animation {
+  0% {
+    background-position: 0 -1536px;
+  }
+  100% {
+    background-position: 0 1536px;
+  }
+}
+
+.sr-skeleton-background {
+  position: absolute;
+  display: block;
+  width: 500%;
+  height: 500%;
+  top: 0;
+  left: 0;
+
+  transform-origin: center;
+  transform: translate(-40%, -40%) rotate(-45deg);
+
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: sr-skeleton-animation;
+  animation-timing-function: linear;
+  background: linear-gradient(
+    to bottom,
+    var(--sr-animation-background) 0%,
+    var(--sr-animation-highlight) 120px,
+    var(--sr-animation-background) 240px
+  );
+  background-size: auto 1536px;
+}
+
+.sr-skeleton-highlight-filter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--sr-highlight-filter-bg);
+  mix-blend-mode: var(--sr-highlight-filter-blend-mode);
+}
+
+.sr-skeleton-background-filter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--sr-mask-color);
+  mix-blend-mode: var(--sr-background-filter-blend-mode);
+}
