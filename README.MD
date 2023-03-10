@@ -8,6 +8,8 @@ For more instructions, please read [Instruction](docs/Instruction.md).
 
 ![demo](./docs/assets/default_capture.gif)
 
+### [Demo](https://silenttiger.online/skeleton-screen-react/)
+
 # Background
 
 There are already some implementations of skeleton screens in the market, but they have some problems:

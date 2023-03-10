@@ -8,6 +8,8 @@
 
 ![demo](./docs/assets/default_capture.gif)
 
+### [Demo](https://silenttiger.online/skeleton-screen-react/)
+
 # 背景
 
 市面上已经有了一些骨架屏实现方案，但他们或多或少有些问题：
