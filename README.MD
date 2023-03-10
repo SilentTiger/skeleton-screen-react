@@ -2,7 +2,7 @@
 
 # Description
 
-### Skeleton Screen React is a powerful and lightweight skeleton screen component based on React.
+### skeleton-screen-react is a powerful and lightweight skeleton screen component based on React.
 
 ![demo](./docs/assets/default_capture.gif)
 
@@ -22,11 +22,11 @@ There are already some implementations of skeleton screens in the market, but th
 
    To thoroughly solve the above two problems, some skeleton screen solutions choose to use SVG to implement, but this undoubtedly makes the usage threshold of the skeleton screen component higher.
 
-Skeleton Screen React is born to solve these problems!
+skeleton-screen-react is born to solve these problems!
 
 # Examples
 
-Skeleton Screen React is very flexible to use. You can use simple code to implement a normal skeleton screen effect like this:
+skeleton-screen-react is very flexible to use. You can use simple code to implement a normal skeleton screen effect like this:
 
 ![demo default](./docs/assets/default_capture.gif)
 
@@ -42,7 +42,7 @@ even if necessary, you can use the SVG version of the product logo provided by t
 
 ### Getting start
 
-First, add the dependency of Skeleton Screen React to your project:
+First, add the dependency of skeleton-screen-react to your project:
 
 ```shell
 yarn add skeleton-screen-react
@@ -74,14 +74,14 @@ Then, load the Skeleton component on the page and set the corresponding properti
       // skeleton placeholder elements
       return (
          <div style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center', fontSize: '20px', color }}>
-            Skeleton Screen React<br/>Silent Tiger
+            skeleton-screen-react<br/>Silent Tiger
          </div>
       );
   }}
 </Skeleton>
 ```
 
-This way, you get a skeleton screen effect with the text "Skeleton Screen React Silent Tiger" as a placeholder.
+This way, you get a skeleton screen effect with the text "skeleton-screen-react Silent Tiger" as a placeholder.
 
 ### Configuration
 |Property                  |Type                           |Required|Description|
@@ -95,7 +95,7 @@ This way, you get a skeleton screen effect with the text "Skeleton Screen React 
 |isDarkMode                |boolean                        |        |Dark mode|
 |className                 |string                         |        |Custom class name for the outer container of the skeleton screen component|
 
-The implementation of Skeleton Screen React is similar to overlaying a mask with a user-defined structure on a background with gradient animation effects. The overall color effect of the skeleton screen can be basically determined by the three attributes of ```maskColor```, ```animationColorBackground``` and ```animationColorHighlight```, as shown in the following figure:
+The implementation of skeleton-screen-react is similar to overlaying a mask with a user-defined structure on a background with gradient animation effects. The overall color effect of the skeleton screen can be basically determined by the three attributes of ```maskColor```, ```animationColorBackground``` and ```animationColorHighlight```, as shown in the following figure:
 
 ![layout](./docs/assets/layout.png)
 
@@ -106,9 +106,9 @@ Here, I want to especially mention the ```isDarkMode``` attribute. When the colo
 You can try all these properties in this [Storybook](https://silenttiger.online/skeleton-screen-react/) page.
 
 ### Customized Development
-Skeleton Screen React provides as much flexibility as possible for customization. If the default animation effects of Skeleton Screen React cannot meet your requirements, you can personalize the animation effects by using the ```backgroundStyle``` attribute. If the Skeleton Screen React component has special layout requirements on the page, you can also set them using the ```wrapperStyle``` attribute. Moreover, you can also modify the style of Skeleton Screen React or distinguish different types of Skeleton by using the ```className``` attribute over a larger scope.
+skeleton-screen-react provides as much flexibility as possible for customization. If the default animation effects of skeleton-screen-react cannot meet your requirements, you can personalize the animation effects by using the ```backgroundStyle``` attribute. If the skeleton-screen-react component has special layout requirements on the page, you can also set them using the ```wrapperStyle``` attribute. Moreover, you can also modify the style of skeleton-screen-react or distinguish different types of Skeleton by using the ```className``` attribute over a larger scope.
 
-In addition, you can perform more thorough and in-depth style customization development by overriding the CSS style files provided by Skeleton Screen React.
+In addition, you can perform more thorough and in-depth style customization development by overriding the CSS style files provided by skeleton-screen-react.
 
 Have fun!
 

@@ -4,7 +4,7 @@
 
 # 简介
 
-### Skeleton Screen React 是一个轻量且功能强大的骨架屏组件，它基于 React 实现。
+### skeleton-screen-react 是一个轻量且功能强大的骨架屏组件，它基于 React 实现。
 
 ![demo](./docs/assets/default_capture.gif)
 
@@ -24,11 +24,11 @@
 
    为了彻底解决上面的两个问题，有些骨架屏方案选择用 svg 来实现，但这样无疑会使得骨架屏组件的使用门槛变高。
 
-Skeleton Screen React 就是为解决这些问题而生！
+skeleton-screen-react 就是为解决这些问题而生！
 
 # 示例
 
-Skeleton Screen React 使用非常灵活，你可以用很简单的代码来实现一个普通的骨架屏效果
+skeleton-screen-react 使用非常灵活，你可以用很简单的代码来实现一个普通的骨架屏效果
 
 ![demo default](./docs/assets/default_capture.gif)
 
@@ -76,14 +76,14 @@ import "skeleton-screen-react/dist/styles/skeleton.css";
       // skeleton placeholder elements
       return (
          <div style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center', fontSize: '20px', color }}>
-            Skeleton Screen React<br/>Silent Tiger
+            skeleton-screen-react<br/>Silent Tiger
          </div>
       );
   }}
 </Skeleton>
 ```
 
-这样，你就得到了一个以文本 “Skeleton Screen React Silent Tiger” 为占位符的骨架屏效果。
+这样，你就得到了一个以文本 “skeleton-screen-react Silent Tiger” 为占位符的骨架屏效果。
 
 ### 参数配置
 |Property                  |Type                           |Required|Description|
@@ -97,7 +97,7 @@ import "skeleton-screen-react/dist/styles/skeleton.css";
 |isDarkMode                |boolean                        |        |黑暗模式|
 |className                 |string                         |        |骨架屏组件外层容器自定义 class name|
 
-Skeleton Screen React 的实现方式类似于在一个有着渐变动画效果的背景上覆盖了一层由用户自行定义结构的蒙板，通过 ```maskColor```、```animationColorBackground```、```animationColorHighlight``` 三个属性就可以基本确定骨架屏的整体色彩效果，如下图所示
+skeleton-screen-react 的实现方式类似于在一个有着渐变动画效果的背景上覆盖了一层由用户自行定义结构的蒙板，通过 ```maskColor```、```animationColorBackground```、```animationColorHighlight``` 三个属性就可以基本确定骨架屏的整体色彩效果，如下图所示
 
 ![layout](./docs/assets/layout.png)
 
@@ -108,9 +108,9 @@ Skeleton Screen React 的实现方式类似于在一个有着渐变动画效果�
 你可以在这个 [Storybook](https://silenttiger.online/skeleton-screen-react/) 页面尝试各种属性的效果。
 
 ### 定制化开发
-Skeleton Screen React 提供了尽可能灵活的定制能力，如果 Skeleton Screen React 默认的动画效果不能满足你的要求，你可以通过```backgroundStyle```属性个性化地修改动画效果，如果 Skeleton Screen React 组件在页面中布局时有特殊需求，也可以通过```wrapperStyle```属性进行设置，而且，你还可以通过```className```属性再更大范围内修改 Skeleton Screen React 的样式或区分不同类型的 Skeleton。
+skeleton-screen-react 提供了尽可能灵活的定制能力，如果 skeleton-screen-react 默认的动画效果不能满足你的要求，你可以通过```backgroundStyle```属性个性化地修改动画效果，如果 skeleton-screen-react 组件在页面中布局时有特殊需求，也可以通过```wrapperStyle```属性进行设置，而且，你还可以通过```className```属性再更大范围内修改 skeleton-screen-react 的样式或区分不同类型的 Skeleton。
 
-另外，你还可以通过覆盖 Skeleton Screen React 提供的 css 样式文件来进行更彻底和深入的样式定制开发。
+另外，你还可以通过覆盖 skeleton-screen-react 提供的 css 样式文件来进行更彻底和深入的样式定制开发。
 
 Have fun!
 

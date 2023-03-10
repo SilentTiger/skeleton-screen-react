@@ -54,7 +54,7 @@ Text.args = {
   children: (color: string) => {
     return (
       <div style={{ position: 'relative', width: '100%', height: '100%', textAlign: 'center', fontSize: '20px', color }}>
-        Skeleton Screen React<br/>Silent Tiger
+        skeleton-screen-react<br/>Silent Tiger
       </div>
     );
   }
