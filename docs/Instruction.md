@@ -50,6 +50,8 @@ At this point, we have already achieved a simple skeleton screen effect using ``
 
 Furthermore, if we want the non-animated part of the skeleton screen to be a color other than white, what should we do? Perhaps you have already thought of it. We use ```mix-blend-mode``` to take the color once again based on the previous foundation.
 
+![3](./assets/3.png)
+
 As shown in the figure above, we construct another "mask". This time, we set the outermost layer of the top layer to the desired color of the skeleton screen's outer layer, set the middle rectangle area to white, and then set the ```mix-blend-mode``` of this layer to ```darken```. In this way, since the white color in the lower layer has already been the maximum value in the R, G, and B channels, the color of the top layer will be taken when blending in the ```darken``` mode. The color of the middle rectangle area will be the same as the color of the lower rectangle area for the same reason.
 
 ![4](./assets/4.png)
