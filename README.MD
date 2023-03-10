@@ -1,5 +1,7 @@
 [中文版](./README.ZH_CN.MD)
 
+For more instructions, please read [Instruction](docs/Instruction.md).
+
 # Description
 
 ### skeleton-screen-react is a powerful and lightweight skeleton screen component based on React.
