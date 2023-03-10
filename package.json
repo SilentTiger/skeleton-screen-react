@@ -1,8 +1,13 @@
 {
   "name": "skeleton-screen-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a powerful and lightweight skeleton screen component based on React.",
-  "keywords": ["skeleton-screen", "skeleton", "react", "css"],
+  "keywords": [
+    "skeleton-screen",
+    "skeleton",
+    "react",
+    "css"
+  ],
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
